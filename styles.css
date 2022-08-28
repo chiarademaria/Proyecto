@@ -1,0 +1,20 @@
+h1{
+    border: 10px solid #22a9d6;
+}
+
+header{
+    position: fixed;
+}
+
+main{
+    position: relative;
+}
+
+a{
+    margin: 50px;
+    color: #384245;
+}
+
+*{
+    background-color: azure;
+}
