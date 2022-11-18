@@ -1,0 +1,160 @@
+body { padding-top: 60px; }
+
+/*SECCION NAVBAR*/
+.navbar {
+    background-color: rgb(126, 170, 208);
+    height: 60px;
+    overflow: hidden;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1 !important;
+  }
+  
+.navbar a {
+    color: rgb(8, 5, 0);
+    display: block;
+    float: left;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+  }
+  
+.navbar a:hover {
+    color: rgb(167, 205, 222);
+    text-decoration: none;
+  }
+  
+.navbar h2{
+    font-size: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.navbar h3{
+  font-size: 25px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.navbar h4{ 
+  font-size: 25px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.navbar h5{ 
+  font-size: 25px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.navbar h6{ 
+  font-size: 25px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.navbar h7{ 
+  font-size: 25px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/*SECCION INTRO*/
+#intro h1{
+    text-align: center;
+}
+
+#intro img{ 
+    display: block;
+    margin: auto;
+    width: 659px;
+    height: 353px;
+}
+
+#intro p{
+    padding: 15px;
+    font-size: 25px;
+}
+
+#intro{
+    background-color: azure;
+}
+
+/*SECCION CLASES*/
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color:rgb(168, 190, 210);
+    height: 170px;
+    align-items: center;
+  }
+
+.flex-container h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(93, 131, 168);
+}
+.flex-container h2{
+    font-size: 30px;
+    color: rgb(93, 131, 168);
+}
+.flex-container h3{
+    font-size: 30px;
+    color: rgb(93, 131, 168);
+}
+
+#b1{
+    background-color: rgb(212, 225, 237);
+}
+#b1 h1{
+    font-size: 25px;
+    padding: 10px;
+}
+#b1 h2{
+    font-size: 20px;
+    padding:10px;
+}
+#b1 h3{
+    font-size: 20px;
+    padding:10px;
+}
+#b1 h4{
+    font-size: 20px;
+    padding:10px;
+}
+    
+#b2{
+    background-color: rgb(212, 225, 237);
+}
+#b2 h1{
+    font-size: 25px;
+    padding: 10px;
+}
+#b2 h2{
+    font-size: 20px;
+    padding:10px;
+}
+#b2 h3{
+    font-size: 20px;
+    padding:10px;
+}
+#b2 h4{
+    font-size: 20px;
+    padding:10px;
+}
+
+#b3{
+    background-color: rgb(212, 225, 237);
+}
+#b3 h1{
+    font-size: 25px;
+    padding: 10px;
+}
+#b3 h2{
+    font-size: 20px;
+    padding:10px;
+}
+#b3 h3{
+    font-size: 20px;
+    padding:10px;
+}
+#b3 h4{
+    font-size: 20px;
+    padding:10px;
+}
+

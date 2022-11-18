@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesballet.css" />
+    <title>Ballet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- SECCION NAVBAR -->
+    <div class="navbar"> 
+        <a href="index.html"><h2>Inicio</h2></a>
+        <a href="ballet.html"><h3>Clases de ballet</h3></a>
+        <a href="#Clases de contemporaneo"><h4>Clases de contempoáneo</h4></a>
+        <a href="#Clases de acrobacia"><h5>Clases de acrobacia</h5></a>
+        <a href="#Contacto"><h6>Contacto</h6></a>
+        <a href="#Inscripcion"><h7>Inscripción</h7></a>
+    </div>
+</head>
+<body>
+    <!-- SECCION INTRO -->
+<div id="intro">
+    <h1><strong>Clases de Ballet</strong></h1>
+    <img src="https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2020/01/20/5fa8ffd121cb0.jpeg" alt="ballet">
+    <p>El ballet es un tipo de baile que requiere mucho equilibrio, fuerza y flexibilidad. En Dance Academy te invitamos a expresarte con completa libertad a travez del baile. Es cuestión de dar el primer paso, todo se logra con práctica.</p>
+</div>
+    <!-- SECCION CLASES -->
+<div class="flex-container" id="clases">
+    <div id="box1" class="box" onclick="openTab('b1');"><h1>Clases para niños</h1></div>
+    <div id="box2" class="box" onclick="openTab('b2');"><h2>Clases para adolescentes</h2></div>
+    <div id="box3" class="box" onclick="openTab('b3');"><h3>Clases para adultos</h3></div>
+</div>
+
+<div id="b1" class="Tab">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">
+      <a href="#clases">x</a></span>
+      <br>
+      <h1>Ofrecemos clases grupales para chicas entre 6 y 11 años</h1>
+      <br />
+      <h2>Todos los años hacemos una muestra de cierre para que las chicas muestren lo que aprendieron!</h2>
+      <br />
+      <h3><strong>Horarios de Clase:</strong> Lunes, Martes, Miercoles y Jueves a
+        las 16 hs, a las 17hs y a las 18hs</h3>
+      <br />
+      <h4>Las clases duran 45 minutos</h4>
+</div>
+
+<div id="b2" class="Tab">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">
+      <a href="#clases">x</a></span>
+    <br>
+    <h1>Ofrecemos clases grupales para chicas enre 12 y 18 años</h1>
+    <br/>
+    <h2>Todos los años hacemos una muestra de cierre para que las chicas muestren lo que aprendieron!</h2>
+    <br/>
+    <h3><strong>HOrarios de Clase:</strong>Martes, Jueves, Miercoles y Viernes a las 13 hs, a las 17 hs y a las 19 hs</h3>
+    <br/>
+    <h4>Las clases duran 45 minutos</h4>
+</div>
+
+<div id="b3" class="Tab">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">
+      <a href="#clases">x</a></span>
+    <br>
+    <h1>Ofrecemos clases grupales para mujeres mayores a 18 años</h1>
+    <br/>
+    <h2>Todos los años hacemos una muestra de cierre para que las chicas muestren lo que aprendieron!</h2>
+    <br/>
+    <h3><strong>HOrarios de Clase:</strong>Lunes, Miercoles y Jueves a las 10 hs hs, a las 12 hs y a las 15 hs</h3>
+    <br/>
+    <h4>Las clases duran 45 minutos</h4>
+</div>
+
+ <!-- SECCION DIRECTORAS -->
+    <div id="directoras">
+        <h1>Nuestras Directoras</h1>
+        <div class="fila">
+            <div class="columna">
+                <div class="box">
+                   <img src="https://bleedingcool.com/wp-content/uploads/2022/09/House-of-the-Dragon-Milly-Alcock-1280x853-1-900x900.jpg" class="image" alt="rhaenyra">
+                   <div class="overlay">Rhaenyra Targaryen - Directora del área de niñas</div>     
+                </div>
+            </div>
+            
+            <div class="columna">
+                <div class="box">
+                    <img src="https://i.pinimg.com/originals/44/45/bf/4445bf42de600cac5d9b2bbe043d3eff.png" class="image" alt="Sansa">
+                    <div class="overlay">Sansa Stark - Directora del área de adolescentes</div>  
+                </div>
+            </div>
+
+            <div class="columna">
+                <div class="box">
+                    <img src="https://d1t35hkz8sx2bl.cloudfront.net/api/file/mSlPoioAT3C6U9DQ8LwF?cache=true" class="image" alt="Cersei">
+                    <div class="overlay">Cersei Baratheon - Directora del área de adultas</div> 
+                </div>
+            </div>
+        </div>
+    </div>
+                
+    
+
+
+
+    
+
+</body>
+<script src="script.js">
+</script>
+
+
+</html>
+
+

@@ -2,7 +2,7 @@ body { padding-top: 60px; }
 
 /*SECCION NAVBAR*/
 .navbar {
-    background-color: rgb(117, 171, 195);
+    background-color: rgb(126, 170, 208);
     height: 60px;
     overflow: hidden;
     position: fixed !important;
@@ -29,6 +29,7 @@ body { padding-top: 60px; }
 .navbar h2{
     font-size: 25px;
     font-family: Helvetica, Arial, sans-serif;
+   
 }
 .navbar h3{
   font-size: 25px;
@@ -55,7 +56,7 @@ body { padding-top: 60px; }
 /* SECCION CLASES*/
 
 #clases {
-  background-color: rgb(154, 183, 195);
+  background-color: azure;
   height:650px;
   width: 100%;
 }
@@ -120,4 +121,9 @@ footer h2 {
 
 footer p {
   padding:10px;
+}
+
+.columna2{
+  float:left;
+  margin-left: 10px;
 }
