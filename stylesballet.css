@@ -28,32 +28,35 @@ body { padding-top: 60px; }
   
 .navbar h2{
     font-size: 25px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .navbar h3{
   font-size: 25px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .navbar h4{ 
   font-size: 25px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .navbar h5{ 
   font-size: 25px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .navbar h6{ 
   font-size: 25px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .navbar h7{ 
   font-size: 25px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /*SECCION INTRO*/
 #intro h1{
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #intro img{ 
@@ -66,6 +69,7 @@ body { padding-top: 60px; }
 #intro p{
     padding: 15px;
     font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #intro{
@@ -81,21 +85,24 @@ body { padding-top: 60px; }
     align-items: stretch;
     background-color:rgb(168, 190, 210);
     height: 170px;
-    align-items: center;
+    align-items:center;
   }
 
 .flex-container h1{
     font-size: 30px;
     text-align: center;
     color: rgb(93, 131, 168);
+    font-family: 'Times New Roman', Times, serif;
 }
 .flex-container h2{
     font-size: 30px;
     color: rgb(93, 131, 168);
+    font-family: 'Times New Roman', Times, serif;
 }
 .flex-container h3{
     font-size: 30px;
     color: rgb(93, 131, 168);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #b1{
@@ -104,18 +111,22 @@ body { padding-top: 60px; }
 #b1 h1{
     font-size: 25px;
     padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #b1 h2{
     font-size: 20px;
     padding:10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #b1 h3{
     font-size: 20px;
     padding:10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #b1 h4{
     font-size: 20px;
     padding:10px;
+    font-family: 'Times New Roman', Times, serif;
 }
     
 #b2{
@@ -124,18 +135,22 @@ body { padding-top: 60px; }
 #b2 h1{
     font-size: 25px;
     padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #b2 h2{
     font-size: 20px;
     padding:10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #b2 h3{
     font-size: 20px;
     padding:10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #b2 h4{
     font-size: 20px;
     padding:10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #b3{
@@ -144,21 +159,25 @@ body { padding-top: 60px; }
 #b3 h1{
     font-size: 25px;
     padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #b3 h2{
     font-size: 20px;
     padding:10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #b3 h3{
     font-size: 20px;
     padding:10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #b3 h4{
     font-size: 20px;
     padding:10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-/*SECCION CLASES*/
+/*SECCION DIRECTORAS*/
 #directoras{
     background-color: azure;
     width: 100%;
@@ -167,6 +186,9 @@ body { padding-top: 60px; }
 #directoras h1{
     text-align: center;
     font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .fila{
     width: 100%;
@@ -199,3 +221,67 @@ body { padding-top: 60px; }
   .box:hover .overlay {
     opacity: 1;
   }
+
+ /*SECCION INSCRIPCION*/ 
+
+.d-grid button{
+    background-color: rgb(126, 170, 208);
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 40px;
+    color: white;
+    border: none;
+    width: 96%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.d-grid{
+    background-color: azure;
+    text-align: center;
+}
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+.d-grid button{
+    font-size: 20px;
+}
+
+/*SECCION FOOTER*/
+
+footer {
+    background-color:black;
+    bottom: 0px;
+    color: white;
+    position: relative;
+  }
+  
+  footer h1 {
+    margin-left: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  footer p {
+    margin-left:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  
+  .columna2{
+    float:left;
+    margin-left: 10px;
+  }
+  .contacto img {
+    width: 3%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .ubicacion iframe{
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  

@@ -28,28 +28,28 @@ body { padding-top: 60px; }
   
 .navbar h2{
     font-size: 25px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
    
 }
 .navbar h3{
   font-size: 25px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .navbar h4{ 
   font-size: 25px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .navbar h5{ 
   font-size: 25px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .navbar h6{ 
   font-size: 25px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .navbar h7{ 
   font-size: 25px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -66,6 +66,7 @@ body { padding-top: 60px; }
   padding-top: 15px;
   padding-bottom: 10px;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .box {
@@ -113,14 +114,14 @@ footer {
 footer h1 {
   margin-left: 10px;
   padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-footer h2 {
-  padding: 10px;
-}
 
 footer p {
-  padding:10px;
+  margin-left:20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 
 .columna2{
@@ -129,7 +130,12 @@ footer p {
 }
 .contacto img {
   width: 3%;
-  margin-left: 15px;
+  margin-left: 10px;
   margin-bottom: 20px;
 }
+.ubicacion iframe{
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
 
