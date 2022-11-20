@@ -1,0 +1,24 @@
+.texto{
+    background-color: rgb(230, 242, 249);
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.texto h1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.texto p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.texto button{
+    background-color: rgb(126, 170, 208);
+    border: none;
+    height: 40px;
+}
+button:hover,
+a:hover {
+    opacity: 0.7;
+}

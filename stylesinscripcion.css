@@ -1,0 +1,120 @@
+body { padding-top: 60px; }
+
+/*SECCION NAVBAR*/
+.navbar {
+    background-color: rgb(126, 170, 208);
+    height: 60px;
+    overflow: hidden;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1 !important;
+  }
+  
+.navbar a {
+    color: rgb(8, 5, 0);
+    display: block;
+    float: left;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+  }
+  
+.navbar a:hover {
+    color: rgb(167, 205, 222);
+    text-decoration: none;
+  }
+  
+.navbar h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar h3{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar h4{ 
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar h5{ 
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar h6{ 
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar h7{ 
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*SECCION FORMULARIO*/
+.container{
+  vertical-align: auto;
+  padding: 15px;
+  margin-top: 20px;
+}
+.container h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+.container p{ 
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container input{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(230, 242, 249);
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+.container select{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(230, 242, 249);
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+
+}
+.container label{
+  margin-right: 300px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+
+}
+.check{
+  margin-left: 58px;
+}
+.check label{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.check hr{
+  margin-left: 60px;
+  margin-right: 105px;
+}
+.boton button{
+  background-color: rgb(126, 170, 208);
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 7%;
+  margin-right: 7%;
+  height: 40px;
+  border: none;
+  width: 86%;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 20px;
+}
+button:hover,
+a:hover {
+  opacity: 0.7;
+}

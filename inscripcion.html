@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesinscripcion.css" />
+    <title>Inscripción</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- SECCION NAVBAR -->
+    <div class="navbar"> 
+        <a href="index.html"><h2>Inicio</h2></a>
+        <a href="ballet.html"><h3>Clases de ballet</h3></a>
+        <a href="#Clases de contemporaneo"><h4>Clases de contempoáneo</h4></a>
+        <a href="#Clases de acrobacia"><h5>Clases de acrobacia</h5></a>
+        <a href="#Contacto"><h6>Contacto</h6></a>
+        <a href="#Inscripcion"><h7>Inscripción</h7></a>
+    </div>
+</head>
+
+ <!-- SECCION FORMULARIO -->
+<body>
+    <form method="POST" action="indexexitoso.html">
+        <div class="container"> 
+            <h1>Inscripción</h1>
+            <p>Por favor complete el siguiente formulario y nos contactaremos con usted.</p>
+            <hr />
+            <label for="nombre-apellido">Nombre y Apellido</label>
+            <input type="text" id="nombre-apellido"  placeholder="Ingrese su nombre y apellido completo" required/>
+
+            <label for="clase">Clase</label>
+            <select id="clase" aria-placeholder="Seleccione la clase que desea realizar">
+                <option>Clase de Ballet</option>
+                <option>Clase de contemporáneo</option>
+                <option>Clases de acrobacia</option>
+            </select>
+
+            <label for="grupo">Grupo</label>
+            <select id="grupo" aria-placeholder="Seleccione el grupo al que pertenece">
+                <option>Grupo niñas</option>
+                <option>Grupo adolescentes</option>
+                <option>Grupo adultas</option>
+            </select>
+
+            <label for="dia">Día y horario</label>
+            <input type="text" id="dia" placeholder="Ingrese el día y horario de preferencia para su clase" required/>
+
+            <label for="email">E-mail</label>
+            <input type="text" id="emial" placeholder="Ingrese su dirección de E-mail" required/>
+        </div>
+       
+        <div class="check" >
+            <input class="check" type="checkbox" id="not-robot" required>
+            <label  for="not-robot">I'm not a robot</label>
+        <hr/>
+        </div>
+        <div class="boton">
+            <a href="indexexitoso.html"><button>Enviar</button></a>
+        </div>
+    </form>
+
+
+    </div>
+</body>
+
+
+
+<script src="script.js">
+</script>
+
+
+</html>
+
