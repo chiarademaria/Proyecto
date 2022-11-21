@@ -222,23 +222,7 @@ body { padding-top: 60px; }
     opacity: 1;
   }
 
-  /*SECCION PROMO*/
-  .promo h1{
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin-top: 30px;
-    color: rgb(93, 155, 209);
-    text-align: center;
-  }
-  #countdown{
-    font-weight: bold;
-    font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-
-  }
-
+  
  /*SECCION INSCRIPCION*/ 
 
 .d-grid button{

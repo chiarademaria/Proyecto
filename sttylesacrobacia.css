@@ -1,4 +1,4 @@
-body { padding-top: 60px; }
+ody { padding-top: 60px; }
 
 /*SECCION NAVBAR*/
 .navbar {
@@ -50,7 +50,6 @@ body { padding-top: 60px; }
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
 }
-
 /*SECCION INTRO*/
 #intro h1{
     text-align: center;
@@ -63,7 +62,7 @@ body { padding-top: 60px; }
     display: block;
     margin: auto;
     width: 659px;
-    height: 353px;
+    height: 600px;
 }
 
 #intro p{
@@ -222,24 +221,7 @@ body { padding-top: 60px; }
     opacity: 1;
   }
 
-  /*SECCION PROMO*/
-  .promo h1{
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin-top: 30px;
-    color: rgb(93, 155, 209);
-    text-align: center;
-  }
-  #countdown{
-    font-weight: bold;
-    font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-
-  }
-
- /*SECCION INSCRIPCION*/ 
+  /*SECCION INSCRIPCION*/ 
 
 .d-grid button{
     background-color: rgb(126, 170, 208);
@@ -301,4 +283,3 @@ footer {
     margin-left: 15px;
     margin-bottom: 15px;
   }
-  
