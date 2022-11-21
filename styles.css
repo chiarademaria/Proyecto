@@ -2,10 +2,11 @@ body { padding-top: 60px; }
 head title{
   font-family: 'Times New Roman', Times, serif;
 }
-body img{
-  width: 100%;
+.titulo h1{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
 
 /*SECCION NAVBAR*/
 .navbar {
@@ -26,6 +27,8 @@ body img{
     text-align: center;
     text-decoration: none;
     font-size: medium;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
   .navbar a:hover {
@@ -58,6 +61,44 @@ body img{
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
 }
+/*SECCION IMAGEN PRINCIPL*/
+.container {
+  position:relative;
+  width: 100%;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #c3d5db;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 
 /* SECCION CLASES*/
@@ -74,6 +115,8 @@ body img{
   padding-bottom: 10px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .box {

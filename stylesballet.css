@@ -62,8 +62,8 @@ body { padding-top: 60px; }
 #intro img{ 
     display: block;
     margin: auto;
-    width: 659px;
-    height: 353px;
+    width: 40%;
+    height: auto;
 }
 
 #intro p{
@@ -204,6 +204,9 @@ body { padding-top: 60px; }
     margin-right: 100px;
     position: relative;
 }
+.box img{
+  border-radius: 50%;
+}
 .overlay {
     position: absolute;
     bottom: 0;
@@ -217,6 +220,7 @@ body { padding-top: 60px; }
     font-size: 20px;
     padding: 5px;
     text-align: center;
+    
   }
   .box:hover .overlay {
     opacity: 1;

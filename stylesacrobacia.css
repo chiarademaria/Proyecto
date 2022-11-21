@@ -52,17 +52,17 @@ ody { padding-top: 60px; }
 }
 /*SECCION INTRO*/
 #intro h1{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #intro img{ 
     display: block;
     margin: auto;
-    width: 659px;
-    height: 600px;
+    width: 50%;
+    height: auto;
 }
 
 #intro p{
@@ -202,6 +202,9 @@ ody { padding-top: 60px; }
     max-width: 300px;
     margin-right: 100px;
     position: relative;
+}
+.box img{
+  border-radius: 50%;
 }
 .overlay {
     position: absolute;

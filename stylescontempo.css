@@ -62,8 +62,8 @@ body { padding-top: 60px; }
 #intro img{ 
     display: block;
     margin: auto;
-    width: 659px;
-    height: 353px;
+    width: 50%;
+    height: auto;
 }
 
 #intro p{
@@ -203,6 +203,9 @@ body { padding-top: 60px; }
     max-width: 300px;
     margin-right: 100px;
     position: relative;
+}
+.box img{
+  border-radius: 50%;
 }
 .overlay {
     position: absolute;
