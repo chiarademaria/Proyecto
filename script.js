@@ -9,30 +9,30 @@ function openTab(tabName) {
     document.getElementById(tabName).style.display = "block";
   }
 
-//SECCION Countdown//
-// Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+//SECCION COUNTDOWN//
+// Fecha donde termina el countdown
+var countDownDate = new Date("Jan 5, 2023 15:37:25").getTime();
 
-// Update the count down every 1 second
+// Update del countdown cada 1 segundo
 var x = setInterval(function() {
 
-  // Get today's date and time
+  // Fecha y hora de hoy
   var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
+  // Distancia entre hoy y la fecha de expiración
   var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
+  // Calculo para dias, horas, minutos y segundos
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
+  // Se muestra en el elemento con el id="countdown"
   document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
-  // If the count down is finished, write some text
+  //Si el countdown expira que se muestre una frase 
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "TERMINO LA PROMO";
