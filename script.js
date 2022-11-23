@@ -1,5 +1,5 @@
 //SECCION CLASES
-// Se esconden los elementos con class="containerTab", excepto por el que coincide con la que se clikea
+// Se esconden los elementos con class="containerTab", excepto el que se clickea
 function openTab(tabName) {
     let i, x;
     x = document.getElementsByClassName("Tab");
